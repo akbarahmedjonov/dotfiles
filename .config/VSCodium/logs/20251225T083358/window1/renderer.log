@@ -1,0 +1,35 @@
+2025-12-25 08:33:59.437 [info] Started local extension host with pid 49132.
+2025-12-25 08:34:00.618 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:2745)
+    at _Dt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:3497)
+2025-12-25 08:34:02.143 [info] [perf] Render performance baseline is 29ms
+2025-12-25 08:43:25.619 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/user/.config/VSCodium/User/settings.json: Unexpected token ',', ..."ontSize": ,
+
+    
+  "... is not valid JSON
+2025-12-25 08:43:25.718 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/user/.config/VSCodium/User/settings.json: Unexpected token ',', ..."ontSize": ,
+
+    
+  "... is not valid JSON
+2025-12-25 08:43:25.720 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/user/.config/VSCodium/User/settings.json: Unexpected token ',', ..."ontSize": ,
+
+    
+  "... is not valid JSON
+2025-12-25 09:08:48.316 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/user/.config/VSCodium/User/settings.json: Unexpected token ''', ..."tFamily": ', 'bold',"... is not valid JSON
+2025-12-25 09:08:48.417 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/user/.config/VSCodium/User/settings.json: Unexpected token ''', ..."tFamily": ', 'bold',"... is not valid JSON
+2025-12-25 09:08:48.418 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/user/.config/VSCodium/User/settings.json: Unexpected token ''', ..."tFamily": ', 'bold',"... is not valid JSON
+2025-12-25 09:08:52.439 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/user/.config/VSCodium/User/settings.json: Unexpected token ';', ..."tFamily": ;
+    "edi"... is not valid JSON
+2025-12-25 09:08:52.542 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/user/.config/VSCodium/User/settings.json: Unexpected token ';', ..."tFamily": ;
+    "edi"... is not valid JSON
+2025-12-25 09:08:52.543 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/user/.config/VSCodium/User/settings.json: Unexpected token ';', ..."tFamily": ;
+    "edi"... is not valid JSON
+2025-12-25 09:08:53.469 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/user/.config/VSCodium/User/settings.json: Unexpected token ''', ..."tFamily": '';
+    "e"... is not valid JSON
+2025-12-25 09:08:53.571 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/user/.config/VSCodium/User/settings.json: Unexpected token ''', ..."tFamily": '';
+    "e"... is not valid JSON
+2025-12-25 09:08:53.572 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/user/.config/VSCodium/User/settings.json: Unexpected token ''', ..."tFamily": '';
+    "e"... is not valid JSON
+2025-12-25 09:08:55.562 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/user/.config/VSCodium/User/settings.json: Expected ',' or '}' after property value in JSON at position 34 (line 3 column 28)
+2025-12-25 09:08:55.663 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/user/.config/VSCodium/User/settings.json: Expected ',' or '}' after property value in JSON at position 34 (line 3 column 28)
+2025-12-25 09:08:55.663 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/user/.config/VSCodium/User/settings.json: Expected ',' or '}' after property value in JSON at position 34 (line 3 column 28)

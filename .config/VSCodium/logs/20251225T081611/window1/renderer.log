@@ -1,0 +1,14 @@
+2025-12-25 08:16:13.443 [info] Started local extension host with pid 37785.
+2025-12-25 08:16:13.519 [info] Started initializing default profile extensions in extensions installation folder. file:///home/user/.vscode-oss/extensions
+2025-12-25 08:16:13.712 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/user/.vscode-oss/extensions
+2025-12-25 08:16:13.722 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-12-25 08:16:14.391 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:2745)
+    at _Dt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:3497)
+2025-12-25 08:16:16.668 [info] [perf] Render performance baseline is 58ms
+2025-12-25 08:16:24.077 [info] Started local extension host with pid 40008.
+2025-12-25 08:16:24.394 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-12-25 08:16:24.992 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:2745)
+    at _Dt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:3497)
+2025-12-25 08:16:26.814 [info] [perf] Render performance baseline is 51ms

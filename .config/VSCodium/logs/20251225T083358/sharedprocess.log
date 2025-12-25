@@ -1,0 +1,15 @@
+2025-12-25 08:34:40.339 [info] Getting Manifest... pkief.material-icon-theme
+2025-12-25 08:34:41.089 [info] Installing extension: pkief.material-icon-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/user/.vscode-oss/extensions/extensions.json","path":"/home/user/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.106.37943","date":"2025-12-03T07:56:31.564Z"}}
+2025-12-25 08:34:43.264 [info] Extracted extension to file:///home/user/.vscode-oss/extensions/pkief.material-icon-theme-5.30.0: pkief.material-icon-theme
+2025-12-25 08:34:43.297 [info] Renamed to /home/user/.vscode-oss/extensions/pkief.material-icon-theme-5.30.0
+2025-12-25 08:34:43.316 [info] Extension installed successfully: pkief.material-icon-theme vscode-userdata:/home/user/.vscode-oss/extensions/extensions.json
+2025-12-25 08:35:02.132 [info] Getting Manifest... metaphore.kanagawa-vscode-color-theme
+2025-12-25 08:35:02.868 [info] Installing extension: metaphore.kanagawa-vscode-color-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/user/.vscode-oss/extensions/extensions.json","path":"/home/user/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.106.37943","date":"2025-12-03T07:56:31.564Z"}}
+2025-12-25 08:35:06.817 [info] Extracted extension to file:///home/user/.vscode-oss/extensions/metaphore.kanagawa-vscode-color-theme-0.5.0: metaphore.kanagawa-vscode-color-theme
+2025-12-25 08:35:06.819 [info] Renamed to /home/user/.vscode-oss/extensions/metaphore.kanagawa-vscode-color-theme-0.5.0
+2025-12-25 08:35:06.827 [info] Extension installed successfully: metaphore.kanagawa-vscode-color-theme vscode-userdata:/home/user/.vscode-oss/extensions/extensions.json
+2025-12-25 08:46:28.568 [info] Getting Manifest... esbenp.prettier-vscode
+2025-12-25 08:46:28.798 [info] Installing extension: esbenp.prettier-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/user/.vscode-oss/extensions/extensions.json","path":"/home/user/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.106.37943","date":"2025-12-03T07:56:31.564Z"}}
+2025-12-25 08:46:30.466 [info] Extracted extension to file:///home/user/.vscode-oss/extensions/esbenp.prettier-vscode-11.0.2: esbenp.prettier-vscode
+2025-12-25 08:46:30.474 [info] Renamed to /home/user/.vscode-oss/extensions/esbenp.prettier-vscode-11.0.2
+2025-12-25 08:46:30.484 [info] Extension installed successfully: esbenp.prettier-vscode vscode-userdata:/home/user/.vscode-oss/extensions/extensions.json

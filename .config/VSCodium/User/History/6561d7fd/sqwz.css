@@ -1,0 +1,124 @@
+:root {
+    /* DEFAULT THEME (Dark Green) */
+    --bg-main: #11341E;
+    --bg-card: #1a4a2a;
+    --text-main: #ffffff;
+    --text-muted: #a5c0ad;
+    --accent-green: #37A23E;
+    --accent-hover: #45c94e;
+    --header-bg: #11341E;
+    --btn-outline-border: #ffffff;
+    --header-border: rgba(255, 255, 255, 0.1);
+    --card-shadow: rgba(0, 0, 0, 0.4); /* Darker shadow for dark mode */
+}
+
+body.light-theme {
+    --bg-main: #f4f7f5;
+    --bg-card: #ffffff;
+    --text-main: #11341E;
+    --text-muted: #555555;
+    --header-bg: #ffffff;
+    --btn-outline-border: #11341E;
+    --header-border: rgba(0, 0, 0, 0.1);
+    --card-shadow: rgba(0, 0, 0, 0.1); /* Softer shadow for light mode */
+}
+
+/* BASE STYLES */
+* { 
+    box-sizing: border-box; 
+    margin: 0; padding: 0; 
+    font-family: 'Segoe UI', sans-serif;
+    /* Added transform and shadow to transition for smooth hovers */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+body { background-color: var(--bg-main); color: var(--text-main); overflow-x: hidden; }
+.container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+/* --- NAVIGATION HOVER --- */
+.main-nav a { 
+    color: var(--text-main); 
+    text-decoration: none; 
+    font-size: 0.95rem; 
+    position: relative;
+    padding: 5px 0;
+}
+
+.main-nav a:hover {
+    color: var(--accent-green);
+}
+
+/* Subtle underline effect on hover */
+.main-nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--accent-green);
+    transition: width 0.3s ease;
+}
+
+.main-nav a:hover::after {
+    width: 100%;
+}
+
+/* --- BUTTON HOVERS --- */
+.btn { 
+    padding: 14px 35px; 
+    border-radius: 6px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    display: inline-block; 
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.btn-green { background: var(--accent-green); color: white; border: none; }
+.btn-green:hover { 
+    background: var(--accent-hover);
+    transform: translateY(-2px); /* Lift button */
+    box-shadow: 0 5px 15px var(--card-shadow);
+}
+
+.btn-outline { border: 2px solid var(--btn-outline-border); color: var(--text-main); background: transparent; }
+.btn-outline:hover { 
+    background: var(--text-main); 
+    color: var(--bg-main); 
+    transform: translateY(-2px);
+}
+
+.auth-btn:hover {
+    filter: brightness(1.1);
+    transform: scale(1.05);
+}
+
+/* --- CARD HOVERS --- */
+.card {
+    background: var(--bg-card);
+    padding: 50px 30px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+/* The "No Break" Hover Logic */
+.card:hover {
+    transform: translateY(-10px); /* Moves up 10px */
+    box-shadow: 0 15px 30px var(--card-shadow); /* Glow/Shadow effect */
+    border-color: var(--accent-green); /* Subtle color change to border */
+}
+
+.card i { font-size: 3rem; color: var(--accent-green); margin-bottom: 25px; display: block; transition: transform 0.4s ease; }
+.card:hover i {
+    transform: scale(1.1) rotate(5deg); /* Icon pop effect */
+}
+
+/* --- THEME BUTTONS --- */
+.theme-btn:hover {
+    opacity: 1;
+    background: rgba(128, 128, 128, 0.2);
+}

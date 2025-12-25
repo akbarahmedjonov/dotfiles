@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PREP.UZ - Fixed Layout & Theme Switcher</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i> PREP.UZ
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Kurs haqida</a></li>
+                    <li><a href="#">Natija</a></li>
+                    <li><a href="#">Aloqa</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <div class="theme-switcher">
+                    <button id="light-btn" class="switch-btn" title="Light Mode">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                    <button id="dark-btn" class="switch-btn" title="Dark Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+                <a href="#" class="auth-btn">Kirish</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <h1>Rus tili – Istagan vaqtda va joyda!</h1>
+                <p>Prep.uz — onlayn rus tili kursi orqali so'zlashuv darajangizni oshiring, mentor bilan jonli darsda
+                    savollaringiz javobsiz qolmaydi! </p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-green">Konsultatsiya</a>
+                    <a href="#" class="btn btn-outline">Ro'yxatdan o'tish</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid-section">
+            <div class="container">
+                <h2 class="section-title">Kurs Haqida</h2>
+                <div class="main-grid">
+                    <div class="info-card">
+                        <i class="fas fa-play-circle"></i>
+                        <h3>Online dars</h3>
+                        <p> 24/7 o'zingizga qulay bo'lgan joyda: uyda, ko'chada, kafeda, tog'da va hatto choyxonada ham
+                            rus tilini o'rganasiz. </p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-user-tie"></i>
+                        <h3>Mentor</h3>
+                        <p>Tajribali mentor siz bilan haftasiga 6 kun, har kuni 2 mahal jonli dars o‘tkazadi. Siz rus
+                            tilida gapirishni boshlaysiz va savollaringizga javob olasiz. Bu esa bilimlarni nafaqat
+                            o‘zlashtirish, balki real hayotda qo‘llash imkonini beradi. </p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Sertifikat</h3>
+                        <p>Kursni muvaffaqiyatli tugatib, sertifikatga ega bo'ling.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

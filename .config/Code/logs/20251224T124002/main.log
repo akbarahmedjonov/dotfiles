@@ -1,0 +1,8 @@
+2025-12-24 12:40:02.165 [info] update#setState idle
+2025-12-24 12:40:03.471 [error] #1: https://update.code.visualstudio.com/api/update/linux-x64/stable/1e3c50d64110be466c0b4a45222e81d2c9352888 - error undefined net::ERR_INTERNET_DISCONNECTED
+2025-12-24 12:40:03.471 [error] update#isLatestVersion(): failed to check for updates
+2025-12-24 12:40:03.472 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123970)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2025-12-24 12:40:16.471 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 2936]: crashed with code 15 and reason 'killed'
+2025-12-24 12:40:16.495 [info] Extension host with pid 2960 exited with code: 0, signal: unknown.

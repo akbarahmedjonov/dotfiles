@@ -1,0 +1,14 @@
+2025-12-24 12:37:23.769 [info] update#setState idle
+2025-12-24 12:37:24.968 [error] vscode-file: Refused to load resource /nix/store/yf2vhbizvxrg6y4irynys6xhz9cjrbm1-vscode-1.107.1/lib/vscode/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/nix/store/yf2vhbizvxrg6y4irynys6xhz9cjrbm1-vscode-1.107.1/lib/vscode/resources/app/extensions/theme-seti/icons/seti.woff)
+2025-12-24 12:37:26.075 [error] #1: https://update.code.visualstudio.com/api/update/linux-x64/stable/1e3c50d64110be466c0b4a45222e81d2c9352888 - error undefined net::ERR_INTERNET_DISCONNECTED
+2025-12-24 12:37:26.076 [error] update#isLatestVersion(): failed to check for updates
+2025-12-24 12:37:26.076 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123970)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2025-12-24 12:37:53.772 [info] update#setState checking for updates
+2025-12-24 12:37:53.778 [error] #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/1e3c50d64110be466c0b4a45222e81d2c9352888?bg=true - error undefined net::ERR_INTERNET_DISCONNECTED
+2025-12-24 12:37:53.778 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123970)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2025-12-24 12:37:53.778 [info] update#setState idle
+2025-12-24 12:40:01.454 [info] Extension host with pid 2700 exited with code: 0, signal: unknown.

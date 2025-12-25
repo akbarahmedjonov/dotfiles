@@ -1,0 +1,192 @@
+/* THEME VARIABLES */
+:root {
+    /* Dark Theme (Default) */
+    --bg-page: #11341E;
+    --bg-header: #11341E;
+    --bg-card: #1a4a2a;
+    --text-primary: #ffffff;
+    --text-secondary: #a5c0ad;
+    --accent: #37A23E;
+    --border: rgba(255, 255, 255, 0.1);
+    --shadow: rgba(0, 0, 0, 0.3);
+}
+
+body.light-theme {
+    /* Light Theme */
+    --bg-page: #f8faf9;
+    --bg-header: #ffffff;
+    --bg-card: #ffffff;
+    --text-primary: #11341E;
+    --text-secondary: #556b5c;
+    --accent: #37A23E;
+    --border: rgba(0, 0, 0, 0.08);
+    --shadow: rgba(0, 0, 0, 0.05);
+}
+
+/* GLOBAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--bg-page);
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* HEADER */
+.main-header {
+    background-color: var(--bg-header);
+    border-bottom: 1px solid var(--border);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--accent);
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--text-primary);
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.main-nav a:hover { color: var(--accent); }
+
+/* THEME SWITCHER */
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.theme-switcher {
+    display: flex;
+    background: var(--border);
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.switch-btn {
+    border: none;
+    background: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--text-primary);
+    opacity: 0.5;
+}
+
+/* Active Button State */
+body.dark-theme #dark-btn,
+body.light-theme #light-btn {
+    background-color: var(--accent);
+    color: white;
+    opacity: 1;
+}
+
+.auth-btn {
+    background-color: var(--accent);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+/* HERO */
+.hero-section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    color: var(--text-secondary);
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 35px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 10px;
+    transition: transform 0.2s ease;
+}
+
+.btn-green { background: var(--accent); color: white; }
+.btn-outline { border: 2px solid var(--text-primary); color: var(--text-primary); }
+
+.btn:hover { transform: translateY(-3px); }
+
+/* GRID & CARDS */
+.grid-section { padding: 80px 0; }
+.section-title { text-align: center; margin-bottom: 50px; }
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.info-card {
+    background-color: var(--bg-card);
+    padding: 40px 30px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    text-align: center;
+    position: relative;
+    /* This ensures hover stays centered and clean */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.info-card i {
+    font-size: 3rem;
+    color: var(--accent);
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* HOVER EFFECT - FIXED POSITIONING */
+.info-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px var(--shadow);
+    border-color: var(--accent);
+    z-index: 10; /* Ensures it sits above others while lifted */
+}

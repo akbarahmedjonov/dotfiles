@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: linear-gradient(to left, darkblue, blue);
+      }
+      .me > .izoh > p {
+        font-size: 50px;
+        font-family: "Iosevka Nerd Font";
+        color: lavender;
+      }
+      .me > .izoh > .biography {
+        font-size: 40px;
+        font-family: 'JetBrains Mono';
+        color: aliceblue;
+      }
+      .me {
+        display: flex;
+        margin-top: 15%;
+        margin-left: 5%;
+      }
+    </style>
+  </head>
+  <div class="me">
+    <img src="./assets/pfp.png" alt="" />
+    <div class="izoh">
+      <p>I'm <span class="element"></span></p>
+      <p class="biography">
+        I’m a professional overthinker fueled by caffeine and a questionable
+        sleep schedule. I excel at starting new hobbies and finishing none of
+        them. I’m mostly made of sarcasm and good intentions. If you're looking
+        for someone who can provide unsolicited movie facts and mediocre life
+        advice, I’m your person.
+      </p>
+    </div>
+  </div>
+  <body>
+    <script>
+      var typed = new Typed(".element", {
+        strings: [
+          "Muslim",
+          "Developer",
+          "from Jizzakh",
+          "human being",
+          "Uzbek",
+        ],
+        typeSpeed: 70,
+        backSpeed: 70,
+        loop: true,
+        loopCount: Infinity,
+        showCursor: true,
+        cursorChar: " <",
+        autoInsertCss: true,
+      });
+    </script>
+  </body>
+</html>

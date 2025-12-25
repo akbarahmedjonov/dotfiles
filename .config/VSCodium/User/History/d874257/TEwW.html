@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: linear-gradient(to left, darkblue, blue);
+      }
+      .me > p,
+      .me > span {
+        font-size: 50px;
+        font-family: "Adwaita Sans";
+      }
+      .me > p {
+        color: whitesmoke;
+      }
+      .me {
+        display: flex;
+      }
+      .me > img {
+        margin-top: 15%;
+        margin-left: 5%;
+      }
+    </style>
+  </head>
+  <div class="me">
+    <img src="./assets/pfp.png" alt="" />
+    <div class="izoh">
+      <p>I'm <span class="element"></span></p>
+      <p>
+        I was born at the very young age, I cannot remeber anything from that
+        moment
+      </p>
+    </div>
+  </div>
+  <body>
+    <script>
+      var typed = new Typed(".element", {
+        strings: [
+          "Muslim",
+          "Developer",
+          "from Jizzakh",
+          "human being",
+          "Uzbek",
+        ],
+        typeSpeed: 70,
+        backSpeed: 70,
+        loop: true,
+        loopCount: Infinity,
+        showCursor: true,
+        cursorChar: " <",
+        autoInsertCss: true,
+      });
+    </script>
+  </body>
+</html>

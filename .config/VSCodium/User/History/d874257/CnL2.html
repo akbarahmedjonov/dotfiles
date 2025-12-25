@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <style>
+        .me{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .me > p, .me>span{
+            font-size: 50px;
+            font-family: 'Adwaita Sans';
+        }
+        .me>p{
+            color: blue;
+        }
+        .me>span{
+            color: crimson;
+        }
+    </style>
+  </head>
+  <div class="me">
+    <p>I'm <span class="element"></span></p>
+  </div>
+  <body>
+    <script>
+      var typed = new Typed(".element", {
+        strings: ["Muslim", "Developer","from Jizzkh","Human being", "Uzbek"],
+        typeSpeed: 70,
+        backSpeed: 70,
+        loop: true,
+        loopCount: Infinity,
+        showCursor: true,
+        cursorChar: " <",
+        autoInsertCss: true,
+      });
+    </script>
+  </body>
+</html>
