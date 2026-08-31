@@ -30,6 +30,8 @@ PACKAGES=(
     tmux
     btop
     htop
+    eza
+    bat
 )
 
 HYPR=(
