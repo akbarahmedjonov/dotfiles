@@ -12,17 +12,17 @@ chmod +x ./install.sh
 ## Tree
 ```bash
 ❯ eza --icons=always --tree --level 2 -a
- .
-├──  .config
-│   ├──  fastfetch
-│   ├──  fish
-│   ├──  hypr
-│   ├──  kitty
-│   ├──  noctalia
-│   ├──  starship.toml
-│   └──  tmux
-├──  install.sh
-└── 󰂺 README.md
-dotfiles on  main [!?]
+.
+├── .config
+│   ├── fastfetch
+│   ├── fish
+│   ├── hypr
+│   ├── kitty
+│   ├── noctalia
+│   ├── starship.toml
+│   └── tmux
+├── install.sh
+└── README.md
+dotfiles on main [!?]
 ❯
 ```
